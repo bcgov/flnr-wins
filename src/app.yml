@@ -1,0 +1,22 @@
+app:
+  staging: path\staging
+  smtp_host: host.domain
+  dist_emails: 
+    - you@domain.com
+  app_email: app@domain.com
+  bcmaphub_url: https:maps.domain.com
+feature_services:
+  WATER_LICENSED_WORKS_POINTS: item-id
+  WATER_LICENSED_WORKS_LINES: item-id
+  FLOODED_AREA_LINES: item-id
+  NON_TRIM_HYDROGRAPHY: item-id
+  RESERVES_AND_RESTRICTIONS: item-id
+
+geodatabases:
+  download: item-id
+  upload: item-id
+  template: item-id
+  reject: item-id
+  sde: item-id
+
+sde_table: item-id
